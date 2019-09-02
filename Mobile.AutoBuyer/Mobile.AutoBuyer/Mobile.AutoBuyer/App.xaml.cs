@@ -1,7 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Mobile.AutoBuyer.Services;
 using Mobile.AutoBuyer.Views;
 
 namespace Mobile.AutoBuyer
@@ -13,7 +12,6 @@ namespace Mobile.AutoBuyer
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
             MainPage = new MainPage();
         }
 

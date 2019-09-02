@@ -5744,6 +5744,9 @@ namespace Mobile.AutoBuyer.Droid
 			// aapt resource value: 0x7F09005C
 			public const int design_snackbar_background = 2131296348;
 			
+			// aapt resource value: 0x7F010002
+			public const int fiber1 = 2130771970;
+			
 			// aapt resource value: 0x7F090055
 			public const int ic_audiotrack_dark = 2131296341;
 			
@@ -6395,8 +6398,8 @@ namespace Mobile.AutoBuyer.Droid
 			// aapt resource value: 0x7F090070
 			public const int tooltip_frame_light = 2131296368;
 			
-			// aapt resource value: 0x7F010002
-			public const int xamarin_logo = 2130771970;
+			// aapt resource value: 0x7F010003
+			public const int xamarin_logo = 2130771971;
 			
 			static Drawable()
 			{

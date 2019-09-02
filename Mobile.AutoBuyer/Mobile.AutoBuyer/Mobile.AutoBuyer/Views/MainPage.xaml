@@ -5,7 +5,8 @@
             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
             mc:Ignorable="d"
             xmlns:views="clr-namespace:Mobile.AutoBuyer.Views"
-            x:Class="Mobile.AutoBuyer.Views.MainPage">
+            x:Class="Mobile.AutoBuyer.Views.MainPage"
+            BackgroundImageSource="">
 
     <MasterDetailPage.Master>
         <views:MenuPage />
@@ -18,9 +19,9 @@
                     <On Platform="iOS" Value="tab_feed.png"/>
                 </OnPlatform>
             </NavigationPage.Icon>
-            <x:Arguments>
+            <!--<x:Arguments>
                 <views:ItemsPage />
-            </x:Arguments>
+            </x:Arguments>-->
         </NavigationPage>
     </MasterDetailPage.Detail>
     
